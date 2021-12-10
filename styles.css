@@ -9,13 +9,12 @@ h1 {
 }
 
 #logo {
-  position: sticky;
+  position:relative;
 }
 
 #logo-img {
-  max-height: 300px;
-  max-width: 350px;
-  
+  width: 50%;
+  justify-content: right;
 }
 
 ul {
