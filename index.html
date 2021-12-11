@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alicia PL Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
@@ -12,8 +13,26 @@
 </head>
 <body>
  
-    <h1>Alicia PL Portfolio</h1>
-    
+    <h1 class="display-1">Alicia PL Portfolio</h1>
+    <p class="lead">This is my first portfolio which is an assignment from Codecademy</p>
+    <ul class="nav nav-pills nav-justified">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="./about-me.html" target="_blank">About Me</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">My Projects</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Project 1</a></li>
+          <li><a class="dropdown-item" href="#">Project 2</a></li>
+          <li><a class="dropdown-item" href="#">Project 3</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Project 4</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Me</a>
+      </li>
+    </ul>
   <script src="js/bootstrap.js"></script>
 </body>
 </html>
