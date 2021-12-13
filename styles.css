@@ -1,24 +1,27 @@
 html {
-background-color: #dfe0e2;
 font-family: 'Roboto Mono';
 }
 
-.jumbotron {
-  background-color: #dfe0e2;
-}
+
 
 .display-1 {
   font-family: 'Bebas Neue';
+  color: #200116;
 }
 
 .lead {
   font-family: 'Roboto Mono';
+  font-style: oblique;
   font-size: 2em;
+}
+
+.navbar {
+  background-color: #200116;
 }
 
 .nav-item {
   font-family: 'Roboto Mono';
   font-size: 1.5rem;
-  color: #eb5160;
+  font-weight: bold;
 }
 
