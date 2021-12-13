@@ -1,5 +1,14 @@
 html {
 background-color: #dfe0e2;
+font-family: 'Roboto Mono';
+}
+
+.jumbotron {
+  background-color: #dfe0e2;
+}
+
+.display-1 {
+  font-family: 'Bebas Neue';
 }
 
 .lead {
